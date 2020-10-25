@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  align-items: center;
+  justify-content: center;
+  margin: 10rem auto;
+}
+
+.btn-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Shuffle Button */
+
+#btn-shuffle {
+  margin: 1rem;
+  padding: 1rem;
+  height: 4rem;
+  width: 8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(8, 180, 8);
+  color: rgb(255, 230, 0);
+  border-radius: 6px;
+}
+
+#btn-shuffle:hover {
+  background-color: rgb(51, 255, 0);
+  color: rgb(255, 251, 4);
+  cursor: pointer;
+}
+
+#btn-shuffle:active {
+  background-color: rgb(74, 167, 75);
+  transform: translateY(4px);
+}
+
+#btn-shuffle:disabled {
+  background-color: rgb(255, 0, 34);
+  color: rgb(255, 188, 4);
+  opacity: 0.5;
+}
+
+/* Reset Button */
+
+#btn-reset {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(109, 109, 109);
+  color: rgb(206, 206, 206);
+  border-radius: 6px;
+}
+
+#btn-reset:hover {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(47, 47, 47);
+  color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+
+#btn-reset:active {
+  background-color: rgb(37, 37, 37);
+  transform: translateY(4px);
+}
+
+/* display div */
+
+#display {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+/* dealt card div */
+
+#card-left {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#dealt-card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 2rem;
+  background-color: white;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  visibility: hidden;
+}
+
+#btn-deal {
+  margin: 1rem;
+  padding: 1rem;
+  width: 8rem;
+  height: 5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(9, 146, 200);
+  color: rgb(0, 255, 242);
+  border-radius: 6px;
+}
+
+#btn-deal:hover {
+  background-color: rgb(9, 44, 200);
+  color: rgb(4, 247, 255);
+  cursor: pointer;
+}
+
+#btn-deal:active {
+  background-color: rgb(74, 80, 167);
+  transform: translateY(4px);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#btn-deal:disabled {
+  opacity: 0.5;
+}
+
+#btn-deal:disabled:hover {
+  background-color: rgb(9, 146, 200);
+  color: rgb(0, 255, 242);
+  cursor: not-allowed;
+}
+
+/* what to do div */
+
+#description-container {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+#what-to-do {
+  padding-bottom: 0.25rem;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#description {
+  border: 2px solid black;
+  width: 25%;
+  min-width: 30rem;
+  height: 10rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.376);
+  margin: 0 auto;
+  margin-bottom: 100%;
+}
+
+/* footer */
+
+#footer-container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  color: white;
+  font-size: 1.5rem;
+}
