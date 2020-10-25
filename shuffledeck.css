@@ -205,10 +205,41 @@
 @media (max-width: 700px) {
   .main-container {
     width: 100%;
+    margin: 0 auto;
   }
 
   #description {
     width: 20rem;
     height: 20rem;
-  }  
+  } 
+
+  #btn-shuffle{
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    width: 6rem;
+    height: 3rem;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #btn-reset{
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    width: 4rem;
+    height: 2.5rem;
+    margin: 0.5rem;
+  }
+  #btn-deal{
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    width: 6rem;
+    height: 3rem;
+    margin: auto;
+  }
+  #dealt-card{
+    font-size: 1rem;
+  }
 }
