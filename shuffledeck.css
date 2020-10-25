@@ -157,19 +157,20 @@
 }
 
 #what-to-do {
+  justify-content: center;
   padding-bottom: 0.25rem;
-  width: 25%;
   margin: 0 auto;
   font-size: 1.5rem;
   color: white;
+  align-items: center;
+  text-align: center;
 }
 
 #description {
   border: 2px solid black;
-  width: 25%;
-  min-width: 30rem;
+  width: 40rem;
   height: 10rem;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1.5rem;
   color: black;
   background-color: rgba(255, 255, 255, 0.376);
@@ -179,11 +180,35 @@
 
 /* footer */
 
-#footer-container{
+#footer-container {
   width: 100%;
   justify-content: center;
   align-items: center;
   text-align: end;
   color: white;
   font-size: 1.5rem;
+}
+
+/* media */
+
+@media (max-width: 1200px) {
+  .main-container {
+    width: 100%;
+  }
+
+  #description {
+    width: 30rem;
+    height: 13rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-container {
+    width: 100%;
+  }
+
+  #description {
+    width: 20rem;
+    height: 20rem;
+  }
 }
