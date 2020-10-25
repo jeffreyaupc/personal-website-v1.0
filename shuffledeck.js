@@ -55,7 +55,6 @@ function resetShuffle(){
     document.getElementById('btn-deal').innerHTML = 'Shuffle deck';
     document.getElementById('dealt-card').innerHTML = '';
     document.getElementById('dealt-card').style.backgroundColor = 'inherit';
-    document.getElementById('dealt-card').style.width = '100%';
     document.getElementById('dealt-card').style.border = 'none';
 }
 
