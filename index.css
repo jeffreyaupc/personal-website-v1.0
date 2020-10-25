@@ -138,7 +138,7 @@ nav a:focus {
 
 .section-container{
     background: linear-gradient(to left, rgb(3 155 185), rgb(59, 56, 253));
-    height: 56.75vh; 
+    height: 100%; 
 }
 
 /* sections */
